@@ -1,12 +1,13 @@
 server:
   listenAddress: "localhost"
-  port: 3000
+  port: 4000
   debug: true
 dbSync:
-  host: "cdbsync-dev-testnet.mydomain.com"
+  host: "localhost"
   port: 5432
-  user: "cdbsync"
-  database: "cdbsync"
+  user: "postgres"
+  password: "v8hlDV0yMAHHlIurYupj"
+  database: "cexplorer"
   maxConnections: 10
 network: "testnet"
-tokenRegistryUrl: "https://metadata.cardano-testnet.iohkdev.io"
+tokenRegistryUrl: "https://tokens.cardano.org/metadata"
